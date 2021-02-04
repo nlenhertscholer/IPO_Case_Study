@@ -6,5 +6,5 @@ by Nesta Lenhert-Scholer
 stores the information into a sqlite database.
 - [analyze_data.py](./analyze_data.py): This file retrieves the data from the database, and performs
 a monthly net percent change in the stocks and compares that to Russell 3000. The plots are then saved
-into the [plots directory](./directory/)
+into the [plots directory](./plots/)
 - [test.py](./test.py): This file performs a simple unit test on the Quandl API access function.
