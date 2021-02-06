@@ -52,7 +52,7 @@ if __name__ == "__main__":
 
     # Read in stock data
     try:
-        stock_info = pd.read_csv("50ipos.csv", header=0)
+        stock_info = pd.read_csv("data/50ipos.csv", header=0)
     except FileNotFoundError as err:
         print(f"ERROR: File {err.filename} not found")
         sys.exit(1)

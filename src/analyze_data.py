@@ -150,7 +150,7 @@ if __name__ == "__main__":
 
     # Get data from database and from RUA
     stock_data = get_data()
-    market_data = pd.read_csv("RUA.csv")
+    market_data = pd.read_csv("data/RUA.csv")
 
     # Following code to get monthly net change percentage for Stocks
     monthly_data = get_monthly_data(stock_data, market_data)
